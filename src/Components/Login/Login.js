@@ -47,7 +47,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen bg-slate-900">
       <div class="card w-96 bg-slate-200 shadow-2xl ">
         <div class="card-body items-center text-center">
           <h2 class="card-title font-bold">
@@ -130,10 +130,7 @@ const Login = () => {
           <div class="divider">OR</div>
           <p>
             <small>
-              New to{' '}
-              <p>
-                <small>New to Development Agriculture</small>
-              </p>
+              New to <p></p>
               <Link className="btn btn-secondary " to="/createAccount">
                 Create an account
               </Link>
