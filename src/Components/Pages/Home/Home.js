@@ -17,8 +17,11 @@ const Home = () => {
         <Text />
         <div>
           {user ? (
-            <button className=" font-bold text-orange-500" onClick={logout}>
-              Sign Out
+            <button
+              className=" font-bold text-orange-500 flex gap-2 items-center"
+              onClick={logout}
+            >
+              <FaUser className="text-yellow-500" /> Sign Out
             </button>
           ) : (
             <Link className="text-xl flex gap-2 items-center" to="/login">
